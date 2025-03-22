@@ -4,21 +4,20 @@
     box-sizing: border-box;
 }
 :root {
-    
---color-Red: hsl(14, 86%, 42%)
---color-Green: hsl(159, 69%, 38%)
---color-Rose 50: hsl(20, 50%, 98%)
---color-Rose 100: hsl(13, 31%, 94%)
---color-Rose 300: hsl(14, 25%, 72%)
---color-Rose 400: hsl(7, 20%, 60%)
---color-Rose 500: hsl(12, 20%, 44%)
---color-Rose 900: hsl(14, 65%, 9%)
+    --color-Red: hsl(14, 86%, 42%);
+    --color-Green: hsl(159, 69%, 38%);
+    --color-Rose50: hsl(20, 50%, 98%);
+    --color-Rose100: hsl(13, 31%, 94%);
+    --color-Rose300: hsl(14, 25%, 72%);
+    --color-Rose400: hsl(7, 20%, 60%);
+    --color-Rose500: hsl(12, 20%, 44%);
+    --color-Rose900: hsl(14, 65%, 9%);
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 100vh;
 }
 .container {
     border: 1px solid gray;
@@ -30,7 +29,49 @@ body{
     font-family: "red hat text";
     margin-bottom: 20px;
 }
-.container-cards img {
-    display: block;
-    max-width: 100%;
+.container-cards {
+    border-radius: 8px;
+    width: 335px;
+    height: 230px;
+    background-image: url("./assets/images/image-waffle-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
 }
+.container-card {
+   display: inline-block;
+   align-items: center;
+   border: 2px solid  var(--color-Rose300);
+   align-self: center;
+   align-content: center;
+   background-color: aliceblue;
+   border-radius: 50px;
+   margin-top: 210px;
+   margin-left: 110px;
+   padding: 6px 10px;
+}
+.container-card img {
+    width: 20px;
+    margin-right: 1px;
+ }
+ .container-card p {
+    display: inline-block;
+    vertical-align: top;
+ }
+ .container-description p {
+    color: var(--color-Rose400);
+    font-family: "red hat text";
+ }
+ .container-description h2 {
+    font-family: "red hat text";
+    color: var(--color-Rose900);
+    font-size: 20px;
+ }
+ .container-description span {
+    font-family: "red hat text";
+    color: var(--color-Red);
+    font-size: 18px;
+    font-weight: 600;
+ }
+ 
