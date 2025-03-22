@@ -17,12 +17,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
 }
 .container {
     border: 1px solid gray;
     max-width: 375px;
     padding: 20px;
+    margin-bottom: 100px;
+}
+.container-base {
+    margin-bottom: 20px;
 }
 .container h1 {
     text-transform: capitalize;
@@ -34,6 +38,86 @@ body{
     width: 335px;
     height: 230px;
     background-image: url("./assets/images/image-waffle-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.container-cards2 {
+    border-radius: 8px;
+    width: 335px;
+    height: 230px;
+    background-image: url("./assets/images/image-creme-brulee-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.container-cards3 {
+    border-radius: 8px;
+    width: 335px;
+    height: 230px;
+    background-image: url("./assets/images/image-macaron-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.container-cards4 {
+    border-radius: 8px;
+    width: 335px;
+    height: 230px;
+    background-image: url("./assets/images/image-tiramisu-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.container-cards5 {
+    border-radius: 8px;
+    width: 335px;
+    height: 230px;
+    background-image: url("./assets/images/image-baklava-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.container-cards6 {
+    border-radius: 8px;
+    width: 335px;
+    height: 230px;
+    background-image: url("./assets/images/image-meringue-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.container-cards7 {
+    border-radius: 8px;
+    width: 335px;
+    height: 230px;
+    background-image: url("./assets/images/image-cake-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.container-cards8 {
+    border-radius: 8px;
+    width: 335px;
+    height: 230px;
+    background-image: url("./assets/images/image-brownie-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.container-cards9 {
+    border-radius: 8px;
+    width: 335px;
+    height: 230px;
+    background-image: url("./assets/images/image-panna-cotta-mobile.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
