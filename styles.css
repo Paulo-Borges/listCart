@@ -196,6 +196,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 80px;
     width: 100%;
     max-width: 375px;
     height: 100%;
@@ -214,7 +215,7 @@ body{
 .modal-active {
     width: 100%;
     max-width: 375px;
-    background: var(--color-Rose100);
+    background: #fff;
     padding: 20px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -230,4 +231,79 @@ body{
 .modal-active-text p{
     font-family: "red hat text";
     color: var(--color-gray);
+}
+.modal-active-value {
+    background: var(--color-Rose100);
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.modal-active-data {
+    display: flex;
+    border-bottom: solid 1px var(--color-gray);
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.modal-active-data-img img {
+    width: 100%;
+    border-radius: 6px;
+    max-width: 50px;
+}
+.modal-active-data-title h1 {
+    font-family: "red hat text";
+    font-size: 12px;
+    font-weight: 600;
+}
+.modal-active-data-quantity {
+    display: flex;
+    gap: 20px;
+}
+.modal-active-data-quantity p:last-child{
+    color: var(--color-gray);
+}
+.red {
+    color: var(--color-Red);
+}
+.modal-active-data-value {
+    font-family: "red hat text";
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.modal-active-finish {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+.modal-active-finish p:first-child {
+    font-family: "red hat text";
+    text-transform: capitalize;
+    font-size: 16px;
+    color: var(--color-gray);
+}
+.modal-active-finish p:last-child {
+    font-family: "red hat text";
+    font-size: 24px;
+    font-weight: 800;
+}
+.modal-active-button {
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-Red);
+}
+.modal-active-button h1{
+    display: flex;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px 0px;
+    font-family: "red hat text";
+    font-size: 16px;
+    font-weight: 500;
+}
+.hidden {
+    display: none;
 }
