@@ -21,6 +21,7 @@ body{
 }
 .container {
     border: 1px solid gray;
+    background: var(--color-Rose50);
     max-width: 375px;
     padding: 20px;
     margin-bottom: 100px;
@@ -158,4 +159,34 @@ body{
     font-size: 18px;
     font-weight: 600;
  }
+ .container-base-mensagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    background: #fff;
+    width: 335px;
+    height: 300px;
+    border: 8px;
+ }
+ .container-base-mensagem h1 {
+    display: flex;
+    font-family: "red hat text";
+    color: var(--color-Red);
+    font-size: 20px;
+ }
+ .container-base-mensagem img {
+    display: flex;
+    margin: 10px auto;
+    width: 40%;
+ }
+ .container-base-mensagem p {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    color: var(--color-Rose400);
+    font-family: "red hat text";
+    font-weight: 600;
+}
  
