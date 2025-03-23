@@ -19,7 +19,7 @@
       <div class="container-content">
       <div class="container-base">
         <div class="container-cards">
-        <div class="container-card">
+        <div class="container-card" onclick="abrirModal()">
           <img src="./assets/images/icon-add-to-cart.svg" alt="imagem do carrinho de compras" />
           <p>Add to Cart</p>
         </div>
@@ -33,7 +33,7 @@
 
       <div class="container-base">
         <div class="container-cards2">
-        <div class="container-card">
+          <div class="container-card" onclick="abrirModal()">
           <img src="./assets/images/icon-add-to-cart.svg" alt="imagem do carrinho de compras" />
           <p>Add to Cart</p>
         </div>
@@ -47,7 +47,7 @@
 
       <div class="container-base">
         <div class="container-cards3">
-        <div class="container-card">
+          <div class="container-card" onclick="abrirModal()">
           <img src="./assets/images/icon-add-to-cart.svg" alt="imagem do carrinho de compras" />
           <p>Add to Cart</p>
         </div>
@@ -61,7 +61,7 @@
 
       <div class="container-base">
         <div class="container-cards4">
-        <div class="container-card">
+          <div class="container-card" onclick="abrirModal()">
           <img src="./assets/images/icon-add-to-cart.svg" alt="imagem do carrinho de compras" />
           <p>Add to Cart</p>
         </div>
@@ -75,7 +75,7 @@
 
       <div class="container-base">
         <div class="container-cards5">
-        <div class="container-card">
+          <div class="container-card" onclick="abrirModal()">
           <img src="./assets/images/icon-add-to-cart.svg" alt="imagem do carrinho de compras" />
           <p>Add to Cart</p>
         </div>
@@ -89,7 +89,7 @@
 
       <div class="container-base">
         <div class="container-cards6">
-        <div class="container-card">
+          <div class="container-card" onclick="abrirModal()">
           <img src="./assets/images/icon-add-to-cart.svg" alt="imagem do carrinho de compras" />
           <p>Add to Cart</p>
         </div>
@@ -103,7 +103,7 @@
 
       <div class="container-base">
         <div class="container-cards7">
-        <div class="container-card">
+          <div class="container-card" onclick="abrirModal()">
           <img src="./assets/images/icon-add-to-cart.svg" alt="imagem do carrinho de compras" />
           <p>Add to Cart</p>
         </div>
@@ -117,7 +117,7 @@
 
       <div class="container-base">
         <div class="container-cards8">
-        <div class="container-card">
+          <div class="container-card" onclick="abrirModal()">
           <img src="./assets/images/icon-add-to-cart.svg" alt="imagem do carrinho de compras" />
           <p>Add to Cart</p>
         </div>
@@ -131,7 +131,7 @@
 
       <div class="container-base">
         <div class="container-cards9">
-        <div class="container-card">
+          <div class="container-card" onclick="abrirModal()">
           <img src="./assets/images/icon-add-to-cart.svg" alt="imagem do carrinho de compras" />
           <p>Add to Cart</p>
         </div>
@@ -152,7 +152,7 @@
       
     </main>
     
-    <div class="modal hidden">
+    <div class="modal hidden" id="confirmed">
       <div class="modal-active">
         <div class="modal-active-text">
           <img src="./assets/images/icon-order-confirmed.svg" alt="confirmed">
@@ -212,7 +212,7 @@
             <p>$46.50</p>
           </div>
         </div>
-        <div class="modal-active-button">
+        <div class="modal-active-button" onclick="fecharModal()">
             <h1>start new order</h1>
         </div>
       </div>
