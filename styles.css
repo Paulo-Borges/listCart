@@ -12,6 +12,7 @@
     --color-Rose400: hsl(7, 20%, 60%);
     --color-Rose500: hsl(12, 20%, 44%);
     --color-Rose900: hsl(14, 65%, 9%);
+    --color-gray: hsla(240, 1%, 28%, 0.885);
 }
 body{
     display: flex;
@@ -192,9 +193,41 @@ body{
     font-weight: 600;
 }
 .modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
+    max-width: 375px;
     height: 100%;
     position: absolute;
     background: transparent;
+    background: var(--color-gray);
 }
- 
+.modal h1 {
+    display: flex;
+    text-align: start;
+    align-items: start;
+    text-transform: capitalize;
+    font-family: "red hat text";
+    margin-bottom: 20px;
+}
+.modal-active {
+    width: 100%;
+    max-width: 375px;
+    background: var(--color-Rose100);
+    padding: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.modal-active-text img{
+    width: 30px;
+}
+.modal-active-text h2{
+    text-transform: capitalize;
+    font-family: "red hat text";
+    margin: 20px 0px;
+}
+.modal-active-text p{
+    font-family: "red hat text";
+    color: var(--color-gray);
+}
