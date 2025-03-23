@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 :root {
+    --color-white: #fff;
     --color-Red: hsl(14, 86%, 42%);
     --color-Green: hsl(159, 69%, 38%);
     --color-Rose50: hsl(20, 50%, 98%);
@@ -22,7 +23,6 @@ body{
     position: relative;
 }
 .container {
-    border: 1px solid gray;
     background: var(--color-Rose50);
     max-width: 375px;
     padding: 20px;
@@ -168,7 +168,8 @@ body{
     justify-content: center;
     align-items: start;
     padding: 20px;
-    background: #fff;
+    border: 1px solid gray;
+    background: var(--color-white);
     width: 335px;
     height: 300px;
     border: 8px;
@@ -215,7 +216,7 @@ body{
 .modal-active {
     width: 100%;
     max-width: 375px;
-    background: #fff;
+    background: var(--color-white);
     padding: 20px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -298,7 +299,7 @@ body{
 .modal-active-button h1{
     display: flex;
     margin: 0 auto;
-    color: #fff;
+    color: var(--color-white);
     padding: 10px 0px;
     font-family: "red hat text";
     font-size: 16px;
