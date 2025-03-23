@@ -38,7 +38,7 @@ body{
 }
 .container-cards {
     border-radius: 8px;
-    width: 335px;
+    max-width: 335px;
     height: 230px;
     background-image: url("./assets/images/image-waffle-mobile.jpg");
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@ body{
 }
 .container-cards2 {
     border-radius: 8px;
-    width: 335px;
+    max-width: 335px;
     height: 230px;
     background-image: url("./assets/images/image-creme-brulee-mobile.jpg");
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@ body{
 }
 .container-cards3 {
     border-radius: 8px;
-    width: 335px;
+    max-width: 335px;
     height: 230px;
     background-image: url("./assets/images/image-macaron-mobile.jpg");
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ body{
 }
 .container-cards4 {
     border-radius: 8px;
-    width: 335px;
+    max-width: 335px;
     height: 230px;
     background-image: url("./assets/images/image-tiramisu-mobile.jpg");
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@ body{
 }
 .container-cards5 {
     border-radius: 8px;
-    width: 335px;
+    max-width: 335px;
     height: 230px;
     background-image: url("./assets/images/image-baklava-mobile.jpg");
     background-repeat: no-repeat;
@@ -88,7 +88,7 @@ body{
 }
 .container-cards6 {
     border-radius: 8px;
-    width: 335px;
+    max-width: 335px;
     height: 230px;
     background-image: url("./assets/images/image-meringue-mobile.jpg");
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ body{
 }
 .container-cards7 {
     border-radius: 8px;
-    width: 335px;
+    max-width: 335px;
     height: 230px;
     background-image: url("./assets/images/image-cake-mobile.jpg");
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@ body{
 }
 .container-cards8 {
     border-radius: 8px;
-    width: 335px;
+    max-width: 335px;
     height: 230px;
     background-image: url("./assets/images/image-brownie-mobile.jpg");
     background-repeat: no-repeat;
@@ -118,7 +118,7 @@ body{
 }
 .container-cards9 {
     border-radius: 8px;
-    width: 335px;
+    max-width: 335px;
     height: 230px;
     background-image: url("./assets/images/image-panna-cotta-mobile.jpg");
     background-repeat: no-repeat;
@@ -307,4 +307,81 @@ body{
 }
 .hidden {
     display: none;
+}
+@media(min-width:820px) and (max-width:1099px) {
+   .container {
+    padding: 40px;
+        display: flex;
+        max-width: 1099px;
+    }
+   .container-cards,
+    .container-cards2,
+    .container-cards3,
+    .container-cards4,
+    .container-cards5,
+    .container-cards6,
+    .container-cards7,
+    .container-cards8,
+    .container-cards8 {
+        max-width: 300px;
+    } 
+    .container-content {
+        gap: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .container-base-mensagem {
+        width: 205px;
+        margin: 10px;
+     }
+      .container-base-mensagem p {
+       font-size: 8px;
+    }
+    .container-card {
+        margin-left: 40px;
+     }
+}
+@media(min-width:1100px) and (max-width:1440px) {
+    .container {
+        display: flex;
+        padding: 80px;
+        max-width: 1440px;
+    }
+    .container-cards,
+    .container-cards2,
+    .container-cards3,
+    .container-cards4,
+    .container-cards5,
+    .container-cards6,
+    .container-cards7,
+    .container-cards8,
+    .container-cards8 {
+        max-width: 400px;
+    } 
+    .container-content {
+        gap: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .container-base {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-base-mensagem {
+        width: 255px;
+        margin: 10px;
+     }
+     .container-base-mensagem h1 {
+        
+        font-size: 18px;
+     }
+     .container-base-mensagem img {
+        width: 80%;
+     }
+     .container-base-mensagem p {
+       font-size: 12px;
+    }
+    .container-card {
+        margin-left: 50px;
+     }
 }
