@@ -341,6 +341,10 @@ body{
     .container-card {
         margin-left: 40px;
      }
+     .modal {
+        background: transparent;
+    }
+  
 }
 @media(min-width:1100px) and (max-width:1440px) {
     .container {
@@ -385,4 +389,7 @@ body{
     .container-card {
         margin-left: 50px;
      }
+     .modal {
+        background: transparent;
+    }
 }
